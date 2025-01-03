@@ -25,7 +25,9 @@ export const NavbarHome = () => {
         </Link>
         <div className="hidden sm:flex">
           <ul className="hidden sm:flex">
-            <li className="text-fontc">Setting</li>
+            <li className="text-fontc">
+              <Link href='/login'>Login</Link>
+            </li>
           </ul>
         </div>
         <div onClick={handleNav} className='sm:hidden cursor-pointer pl-24'>
@@ -41,7 +43,9 @@ export const NavbarHome = () => {
           </div>
           <div className="flex-col py-4 pl-4">
             <ul>
-              <li className="text-fontc">Setting</li>
+              <li className="text-fontc">
+              <Link href='/login'>Login</Link>
+              </li>
             </ul>
           </div>
         </div>
