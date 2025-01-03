@@ -24,6 +24,9 @@ export default {
         },
         fontc: {
           DEFAULT: "#BFD7B7",
+        },
+        mayablue: {
+          DEFAULT: "#66C3FF",
         }
       },
     },
